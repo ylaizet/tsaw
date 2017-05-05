@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 version = open("tsaw/VERSION").read().strip()
 download_url = 'https://github.com/ylaizet/tsaw/archive/%s.tar.gz' % version
@@ -6,7 +6,7 @@ download_url = 'https://github.com/ylaizet/tsaw/archive/%s.tar.gz' % version
 
 setup(
     name = 'tsaw',
-    packages = ['tsaw'],
+    packages=find_packages(),
     version = version,
     description = 'TSAW : Torrent Server API Wrapper.',
     long_description=open('README.md').read(),
