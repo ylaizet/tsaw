@@ -1,2 +1,2 @@
-include tsaw/VERSION
 include README.md
+recursive-include tsaw VERSION
