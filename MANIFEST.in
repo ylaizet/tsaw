@@ -1,2 +1,2 @@
-tsaw/VERSION
-README.md
+include tsaw/VERSION
+include README.md
