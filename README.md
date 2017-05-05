@@ -1,4 +1,5 @@
-# TSAW
+TSAW
+====
 
 TSAW Torrent Server API Wrapper.
 
@@ -6,20 +7,17 @@ More information about the api at http://ion-torrent-sdk.readthedocs.io/en/lates
 
 ---
 
-## Requirements
+Installation
+------------
 
-- python 2.7, 3.x
-- requests
-
-### Installation
-
-- via pip : `pip install tsaw`
+    pip install tsaw
 
 ---
 
-## Usage example
+Usage example
+-------------
 
-- Get 10 last results for plugin with id 42
+Get the 10 last results for plugin with id 42
     
 ```python
 from tsaw import TorrentServerApi
