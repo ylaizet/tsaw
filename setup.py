@@ -14,6 +14,7 @@ setup(
     author_email = 'y.laizet@bordeaux.unicancer.fr',
     url = 'https://github.com/ylaizet/tsaw',
     download_url = download_url,
+    include_package_data=True,
     license = "GPL3",
     keywords = ['api', 'sequencer', 'Torrent server'],
     classifiers = [
