@@ -2,12 +2,12 @@ from distutils.core import setup
 setup(
     name = 'tsaw',
     packages = ['tsaw'],
-    version = '0.3',
+    version = '0.4',
     description = 'TSAW : Torrent Server API Wrapper.',
     author = "Yec'han Laizet",
     author_email = 'y.laizet@bordeaux.unicancer.fr',
     url = 'https://github.com/ylaizet/tsaw',
-    download_url = 'https://github.com/ylaizet/tswa/archive/0.3.tar.gz',
+    download_url = 'https://github.com/ylaizet/tswa/archive/0.4.tar.gz',
     license = "GPL3",
     keywords = ['api', 'sequencer', 'Torrent server'],
     classifiers = [
